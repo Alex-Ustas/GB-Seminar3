@@ -71,10 +71,35 @@
 
 ## Создание новой ветки
 
+Чтобы посмотреть все текущие ветки, используется команда:
+
+> git branch
+
+Текущая ветка при этом подсвечивается и выделяется знаком (->).
+
 Для создания новой ветки используется команда:
 
-> git branch < new_branch >
+> git branch <new_branch>
+
+В скобках используется название ветки, которую собираемся создать или удалить:
+```
+<branchname>
+```
+В названии ветки не должны использоваться запрещенные символы или зарезервированные названия.
+
+Имя существующей ветки используется для переименования или удаления.
+
+```
+<old_branch>
+```
+
+Чтобы создать новую ветку, используйте название ветки, которое еще не определено в репозитории.
+```
+<new_branch>
+```
 
 ## Удаление ветки
 
 ## Слияние веток
+
+Incorporates changes from the named commits (since the time their histories diverged from the current branch) into the current branch. This command is used by git pull to incorporate changes from another repository and can be used by hand to merge changes from one branch into another.
