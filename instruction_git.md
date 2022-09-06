@@ -100,6 +100,14 @@
 
 ## Удаление ветки
 
+Чтобы удалить ранее созданную ветку используется команда
+
+> git branch -d < branch >
+
+Обычно используется после слияния.
+
+Это «безопасная» операция, поскольку **git** не позволит удалить ветку, если в ней есть неслитые изменения.
+
 ## Слияние веток
 
 Incorporates changes from the named commits (since the time their histories diverged from the current branch) into the current branch. This command is used by git pull to incorporate changes from another repository and can be used by hand to merge changes from one branch into another.
