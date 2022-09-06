@@ -100,6 +100,8 @@
 
 ## Удаление ветки
 
+With a -d or -D option, < branchname > will be deleted. You may specify more than one branch for deletion.
+
 ## Слияние веток
 
 Incorporates changes from the named commits (since the time their histories diverged from the current branch) into the current branch. This command is used by git pull to incorporate changes from another repository and can be used by hand to merge changes from one branch into another.
